@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background: #001119;
+    color: #dfeff7;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #dfeff7;
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+}
+
+.name {
+    font-size: 2.5rem;
+}
+
+.name:before {
+    content: '@';
+    color: #003b56;
+}
+
+.icons {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.icon {
+    margin: 0 2px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 5px;
+    font-size: .8rem;
+    color: #003b56;
+}
+
+.vspacer {
+    flex-grow: 1;
+}
